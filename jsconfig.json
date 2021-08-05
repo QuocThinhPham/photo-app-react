@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "es6",
+    "baseUrl": "./src",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "context/*": ["src/context/*"],
+      "firebase/*": ["src/firebase/*"],
+      "hooks/*": ["src/hooks/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
