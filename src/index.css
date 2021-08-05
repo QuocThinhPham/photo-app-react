@@ -277,6 +277,30 @@ body {
         max-width: 280px;
     }
 
+    .header .header-title {
+        padding: 0;
+    }
+
+    .header .header-title h1 {
+        width: auto;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .header .header-title .user-info {
+        font-size: 14px;
+        padding-right: 0.2rem;
+    }
+
+    .header .header-title .user-info img {
+        display: none;
+    }
+
+    .header .header-title .actions {
+        font-size: 14px;
+        padding-left: 0.2rem;
+    }
+
     .header h2 {
         font-size: 2rem;
         margin-top: 2rem;
